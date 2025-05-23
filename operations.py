@@ -11,4 +11,6 @@ def multiplicacao(a, b):
     return a * b
 
 def divisao(a, b):
+    if b == 0:
+        raise Exception("Não pode dividir por zero")
     return a / b
