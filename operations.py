@@ -1,6 +1,8 @@
+# Operação de soma
 def soma(a, b):
     return a + b
 
+# Operação de subtração
 def subtracao(a, b):
     return a - b
 
